@@ -1,0 +1,42 @@
+#Quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#Quote .box-qoute {
+  width: 75%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.26);
+  padding: 20px;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#Quote h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  margin: 0;
+}
+#Quote button {
+  background-color: black;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+#Quote button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#Quote div {
+  text-align: center;
+  font-size: 25px;
+}
+body {
+  font-family: "Bebas Neue", sans-serif;
+}
